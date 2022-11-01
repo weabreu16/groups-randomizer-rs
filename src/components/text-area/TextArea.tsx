@@ -4,6 +4,7 @@ import "./TextArea.css";
 interface Props {
   className?: string;
   text?: string;
+  placeholder?: string;
   onChange?: (text: string) => void;
 }
 
@@ -16,7 +17,7 @@ export function TextArea(props: Props) {
   return (
     <div className={props.className}>
       <textarea
-        placeholder="Write the people here..."
+        placeholder={props.placeholder}
         value={props.text}
         onChange={handleChange}
       ></textarea>

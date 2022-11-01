@@ -12,7 +12,10 @@ function App() {
         label="People"
         icon={<Icon icon="bi:people-fill" color="white" width="21" height="21" />}
       />
-      <TextArea className="test" />
+      <TextArea 
+        className="test"
+        placeholder="Write the people here..."
+      />
       <Button 
         className='test-btn'
         icon={<Icon icon="fa:random" color="white" width="21" />}
