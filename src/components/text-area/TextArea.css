@@ -1,0 +1,27 @@
+
+textarea {
+    width: 100%;
+    height: 100%;
+    
+    background-color: rgb(30, 30, 30);
+    color: white;
+    border: 0;
+    outline: 0;
+
+    font-size: 12px;
+    resize: none;
+}
+
+textarea::placeholder {
+    color: white;
+}
+
+textarea::-webkit-scrollbar {
+    width: .8em;
+    background-color: #8b8b8b;
+}
+
+textarea::-webkit-scrollbar-thumb {
+    background-color: #454545;
+    border-radius: 50px;
+}
