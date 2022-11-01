@@ -2,7 +2,7 @@ import React from 'react';
 import { Icon } from '@iconify/react';
 import "./App.css";
 
-import { SectionLabel, TextArea } from "./components";
+import { Button, SectionLabel, TextArea } from "./components";
 
 function App() {
 
@@ -13,6 +13,10 @@ function App() {
         icon={<Icon icon="bi:people-fill" color="white" width="21" height="21" />}
       />
       <TextArea className="test" />
+      <Button 
+        className='test-btn'
+        icon={<Icon icon="fa:random" color="white" width="21" />}
+      >Randomize</Button>
     </React.Fragment>
   );
 }
