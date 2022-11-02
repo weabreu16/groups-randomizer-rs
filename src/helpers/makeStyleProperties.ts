@@ -1,0 +1,68 @@
+import React from "react";
+
+export const makeStyleProperties = (props: any): any => {
+  const {
+    bg,
+    color,
+    d,
+    flex,
+    float,
+    h,
+    m,
+    maxH,
+    maxW,
+    minH,
+    minW,
+    p,
+    w,
+    alignItems,
+    alignContent,
+    justifyItems,
+    justifyContent,
+    flexWrap,
+    flexDirection,
+    borderRadius,
+    overflow,
+    overflowX,
+    overflowY,
+    pos,
+    top,
+    right,
+    bottom,
+    left,
+    ...restProps
+  } = props;
+
+  const style: React.CSSProperties = {
+    backgroundColor: bg,
+    color,
+    display: d,
+    flex,
+    float,
+    height: h,
+    margin: m,
+    maxHeight: maxH,
+    maxWidth: maxW,
+    minHeight: minH,
+    minWidth: minW,
+    padding: p,
+    width: w,
+    alignItems,
+    alignContent,
+    justifyItems,
+    justifyContent,
+    flexWrap,
+    flexDirection,
+    borderRadius,
+    overflow,
+    overflowX,
+    overflowY,
+    position: pos,
+    top,
+    right,
+    bottom,
+    left,
+  };
+
+  return [style, restProps];
+}
