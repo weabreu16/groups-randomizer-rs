@@ -24,6 +24,7 @@
 
     background-color: rgb(30, 30, 30);
     cursor: pointer;
+    user-select: none;
 }
 
 .btn-icon {

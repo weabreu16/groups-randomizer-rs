@@ -4,7 +4,7 @@ import "./TextArea.css";
 
 interface Props {
   className?: string;
-  text?: string;
+  value?: string;
   style?: any;
   placeholder?: string;
   onChange?: (text: string) => void;
@@ -20,7 +20,7 @@ function TextAreaBase(props: Props) {
     <textarea
       className={props.className}
       placeholder={props.placeholder}
-      value={props.text}
+      value={props.value}
       style={props.style}
       onChange={handleChange}
     />

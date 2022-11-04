@@ -1,0 +1,1 @@
+export const RANDOMIZE_GROUPS = "randomize_groups";
