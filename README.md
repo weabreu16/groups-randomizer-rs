@@ -1,7 +1,35 @@
-# Tauri + React + Typescript
+# Groups Randomizer
+Desktop App for generate random groups made up of themes and members using Tauri.
 
-This template should help get you started developing with Tauri, React and Typescript in Vite.
+## Install Binaries
+**Windows x64 Only**
+Download MSI file and launch setup.
 
-## Recommended IDE Setup
+## Contributing
+If you want to contribute to this project, follow the next steps:
 
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+1. Fork this repository.
+
+2. Create a new branch that should start with ```patch/<name-of-problem>```.
+
+3. Install the dependencies.
+```bash
+# npm
+npm install
+
+# yarn
+yarn
+```
+
+4. Develop your patch code.
+
+5. Commit the changes this message rule ```fix: <name-of-problem-fixed>```.
+
+6. Push the changes to the repository.
+```
+git push origin <name-of-branch>
+```
+
+7. Go to GitHub and send a pull request to ```main``` branch.
+
+***Thanks for contributing!!***
